@@ -4,17 +4,17 @@ from etl.load_data import load_data
 from pipelines.log import log_process
 
 #original data
-highway_file = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/raw_data/2023_highway_stop_revenue.csv"
-weather_file = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/raw_data/weather.json"
-nearest_station = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/raw_data/nearest_station.csv"
+highway_file = "data/raw_data/2023_highway_stop_revenue.csv"
+weather_file = "data/raw_data/weather.json"
+nearest_station = "data/raw_data/nearest_station.csv"
 
 #存放的目標位置
-target_file_highway = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/transformed_highway_data.csv"
-target_file_weather = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/transformed_weather_data.csv"
-target_file_station_dim = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/weatherStationDimTable.csv"
-target_file_date_dim = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/weatherDateDim.csv"
-target_file_weather_fact = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/weatherFactTable.csv"
-tarfet_file_combined_table = "/Users/huiyuc/Documents/data engineering/python-training/highway_revenue_weather/data/combined_table.csv"
+target_file_highway = "data/transformed_highway_data.csv"
+target_file_weather = "data/transformed_weather_data.csv"
+target_file_station_dim = "data/weatherStationDimTable.csv"
+target_file_date_dim = "data/weatherDateDim.csv"
+target_file_weather_fact = "data/weatherFactTable.csv"
+tarfet_file_combined_table = "data/combined_table.csv"
 
 #ETL Process
 log_process("Start extract highway station revenue data")

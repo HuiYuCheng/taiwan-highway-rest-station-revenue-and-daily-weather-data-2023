@@ -44,8 +44,8 @@ ETL pipeline for Taiwan highway rest station revenue and daily weather data in 2
 
 # If you want to use this project
     - 請注意這個專案僅是作為興趣的小專案，無營利行為
-    - 請變更在 main.py 中各目標檔案的位置成你想要的路徑
-    - 請從下方 Rawdata source 中下載相關檔案
+    - 若欲變更檔案目標位置，可在 main.py 中變更你想要的路徑
+    - 若欲變更資料期間，可從下方 Rawdata source 中下載最新相關檔案
 
 # Rawdata source
     〈國道服務區每日營業額〉政府資料開放平臺
