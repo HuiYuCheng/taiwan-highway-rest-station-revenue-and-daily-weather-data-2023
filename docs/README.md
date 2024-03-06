@@ -26,18 +26,20 @@ ETL pipeline for Taiwan highway rest station revenue and daily weather data in 2
     - extracted data from .csv files
     - transformed table schema
     - transformed data type
-    - loaded data into .csv files for different needs
+    - loaded data into .csv files and postgreSQL for different needs
 
     ETL〈自動氣象站-氣象觀測資料〉
     - extracted data from .json files
     - Selected essential data (daily maximum, minimum, and average temperatures) from the extensive dataset
     - transformed table schema
     - normalized data
-    - loaded data into .csv files for different needs
+    - loaded data into .csv files and postgreSQL for different needs
 
     BI〈臺灣高速公路服務區 每日營收與天氣關係〉
     - made a portal for analysis on IBM cognos
+
   You can check the portal demo video at: https://drive.google.com/file/d/1JBymasHLIEU2iJFGZsbIxR653wljUZp7/view?usp=sharing.
+  ![ERD](https://drive.google.com/uc?export=view&id=1V7nKEJK3a2yxyg2Ss6CsLtKs47cE_ZRz)
   ![portal_1](https://drive.google.com/uc?export=view&id=1ylNnsvd1NNpyz_saIxIdFpwCA2dvHPhT)
   ![portal_2](https://drive.google.com/uc?id=1vFbMfNlIpVNkc-nJgnMcwfkD_FD352hC)
 
